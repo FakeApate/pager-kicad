@@ -4,7 +4,58 @@
 	(generator_version "10.0")
 	(uuid "041f6a13-b8e4-4a99-bd7e-9bedffe20304")
 	(paper "A4")
+	(title_block
+		(title "Meshpager")
+		(date "2026-08-23")
+		(rev "1")
+	)
 	(lib_symbols)
+	(sheet
+		(at 68.58 152.4)
+		(size 46.99 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5d722130-3434-4894-8d41-26dc4382f270")
+		(property "Sheetname" "mcu"
+			(at 68.58 151.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 68.58 178.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 146.05 107.95)
 		(size 38.1 21.59)
@@ -46,6 +97,11 @@
 		(instances
 			(project "pcb2"
 				(path "/c0ddd66c-7b46-46d3-9de5-c3245bca1945"
+					(page "4")
+				)
+			)
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
 					(page "4")
 				)
 			)
@@ -95,6 +151,11 @@
 					(page "2")
 				)
 			)
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
+					(page "5")
+				)
+			)
 		)
 	)
 	(sheet
@@ -138,6 +199,11 @@
 		(instances
 			(project "pcb2"
 				(path "/c0ddd66c-7b46-46d3-9de5-c3245bca1945"
+					(page "3")
+				)
+			)
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
 					(page "3")
 				)
 			)
