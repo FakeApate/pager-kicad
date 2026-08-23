@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "pager-jlc") (type "KiCad") (uri "C:/Users/sam/Documents/pager-project/lib/pager-jlc.kicad_sym") (options "") (descr ""))
+)
