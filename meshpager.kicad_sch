@@ -9,10 +9,1231 @@
 		(date "2026-08-23")
 		(rev "1")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 40.64 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ba021aa-ebd0-4d34-ab5f-87956fa86b15")
+	)
+	(junction
+		(at 45.72 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "570f9894-a79b-48c2-9a6e-1c94ceeb935f")
+	)
+	(junction
+		(at 35.56 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6430eb81-05df-44f1-82ac-987baff60f56")
+	)
+	(junction
+		(at 30.48 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de757577-89c5-4265-ac5b-f6a230644ebf")
+	)
+	(junction
+		(at 38.1 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5f13835-b5a8-4379-9395-09ce562c1654")
+	)
+	(wire
+		(pts
+			(xy 38.1 148.59) (xy 40.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d1f76d-af89-4496-89f1-660233b5f3b6")
+	)
+	(wire
+		(pts
+			(xy 189.23 104.14) (xy 195.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a22834-fc98-42e0-98af-74f6327c110b")
+	)
+	(wire
+		(pts
+			(xy 35.56 148.59) (xy 38.1 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e729a0c-ba4e-48ba-bf52-95a854bb8d95")
+	)
+	(wire
+		(pts
+			(xy 189.23 106.68) (xy 195.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a16be69-6edf-40f2-8a59-e67c4a191bd9")
+	)
+	(wire
+		(pts
+			(xy 189.23 101.6) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4571ff2e-9bc5-4db2-b0c3-10d0e7704df8")
+	)
+	(wire
+		(pts
+			(xy 91.44 113.03) (xy 110.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b84a87-8925-4284-a808-220ebe00b69a")
+	)
+	(wire
+		(pts
+			(xy 91.44 97.79) (xy 110.49 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7565f460-34d7-4e19-b799-bd52f66c15ef")
+	)
+	(wire
+		(pts
+			(xy 45.72 148.59) (xy 50.8 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801893fe-763c-4d45-9376-5bfff76860a6")
+	)
+	(wire
+		(pts
+			(xy 91.44 100.33) (xy 110.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813f74af-cc8f-41e6-8bf0-95f0c503e251")
+	)
+	(wire
+		(pts
+			(xy 189.23 93.98) (xy 195.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8beae5c4-7663-4219-a6b0-9e7bdacafbd1")
+	)
+	(wire
+		(pts
+			(xy 30.48 148.59) (xy 35.56 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db9da0e-c744-4ea6-bc18-9e1413767342")
+	)
+	(wire
+		(pts
+			(xy 91.44 118.11) (xy 110.49 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a528847c-f1af-4072-b2fc-9ded55038e0d")
+	)
+	(wire
+		(pts
+			(xy 91.44 82.55) (xy 110.49 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8090a9e-4164-495f-b3ea-8f5365261daf")
+	)
+	(wire
+		(pts
+			(xy 40.64 148.59) (xy 45.72 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99472f3-1326-4bc4-bdf5-22b1e5536052")
+	)
+	(wire
+		(pts
+			(xy 91.44 85.09) (xy 110.49 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e47d3c-76f0-4309-8711-8f4327af3f28")
+	)
+	(wire
+		(pts
+			(xy 91.44 115.57) (xy 110.49 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c061eaa2-bfb2-40ec-af64-085c82432240")
+	)
+	(wire
+		(pts
+			(xy 189.23 96.52) (xy 195.58 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6bbed64-715f-4f0c-8c3c-c0a380bdfe49")
+	)
+	(wire
+		(pts
+			(xy 25.4 148.59) (xy 30.48 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1256c9-248d-419e-8dfc-580635862d72")
+	)
+	(wire
+		(pts
+			(xy 189.23 99.06) (xy 195.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2ff303-81e8-46ad-b7b9-f8ca9ad28e3f")
+	)
+	(wire
+		(pts
+			(xy 38.1 151.13) (xy 38.1 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d11707-ebfa-4372-bc0b-d096fd1e01e8")
+	)
+	(wire
+		(pts
+			(xy 91.44 120.65) (xy 110.49 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e18d2e-6876-4a38-92f0-6ff3f591ea15")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 40.64 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "3d6dffb9-5630-456b-ba9b-6384783be0bb")
+		(property "Reference" "H4"
+			(at 39.116 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 146.0499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 40.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 40.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "722a3496-0a4c-49c9-aa67-8c37a18fe05c")
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 35.56 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "4fe002cd-3971-4152-bb16-9475bde653fa")
+		(property "Reference" "H3"
+			(at 34.036 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 38.1 146.0499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 35.56 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 35.56 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "722a3496-0a4c-49c9-aa67-8c37a18fe05c")
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 50.8 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c07d666-ec0c-42d0-b3e3-a0be7e8cb271")
+		(property "Reference" "H6"
+			(at 50.8 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 50.8 141.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 50.8 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e13887a-84af-4cb1-8938-9f6be7eb4659")
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 30.48 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "b2bf47ed-419c-4737-a9ea-febcaffca7dc")
+		(property "Reference" "H2"
+			(at 28.956 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 33.02 146.0499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 30.48 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 30.48 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "722a3496-0a4c-49c9-aa67-8c37a18fe05c")
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 45.72 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "b5e5933b-ec5d-4014-b13e-a022d10cfbca")
+		(property "Reference" "H5"
+			(at 44.196 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 48.26 146.0499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 45.72 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 45.72 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "722a3496-0a4c-49c9-aa67-8c37a18fe05c")
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb2c0642-4411-42be-bab9-517cafa53f4e")
+		(property "Reference" "#PWR01"
+			(at 38.1 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40553246-9566-401c-b940-ff358a74b30b")
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 25.4 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "ee943a9e-6ace-4aef-a0cd-e28b19736ddf")
+		(property "Reference" "H1"
+			(at 23.876 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 27.94 146.0499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 25.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 25.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "722a3496-0a4c-49c9-aa67-8c37a18fe05c")
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 68.58 152.4)
-		(size 46.99 25.4)
+		(at 195.58 74.93)
+		(size 67.31 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "06cffab7-f4a7-4464-9b1c-916d20488eb7")
+		(property "Sheetname" "edp"
+			(at 195.58 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "edp.kicad_sch"
+			(at 195.58 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EPD.DC" output
+			(at 195.58 101.6 180)
+			(uuid "a09fb90d-f7f7-4123-8b5d-edbd58d5483a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EPD.BUSY" output
+			(at 195.58 99.06 180)
+			(uuid "f05611e3-9c0f-46f5-925e-7718476202d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EPD.MOSI" input
+			(at 195.58 104.14 180)
+			(uuid "71d926e8-c694-45f7-81a1-acb5bee7634b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EPD.SCK" input
+			(at 195.58 93.98 180)
+			(uuid "f9b60b41-3d8d-4feb-9347-035c59fc2b70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EPD.RST" input
+			(at 195.58 96.52 180)
+			(uuid "5d501d96-743f-4248-9ead-06b79d6b163f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EPD.CS" input
+			(at 195.58 106.68 180)
+			(uuid "f0f59900-49ae-4ba2-9de9-2a445710b414")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 110.49)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "58f1a030-02e2-4918-ae36-a66fa333c64f")
+		(property "Sheetname" "input_module"
+			(at 69.85 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input_module.kicad_sch"
+			(at 69.85 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TCA_KEYPAD_INT" output
+			(at 91.44 113.03 0)
+			(uuid "6d8a8895-7c79-4baa-a989-22d7ad185db1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCA_SCL" input
+			(at 91.44 118.11 0)
+			(uuid "646273cf-df9d-4a56-8204-ee87e40b1b1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TCA_SDA" bidirectional
+			(at 91.44 115.57 0)
+			(uuid "406d78f4-0457-4e25-9651-dd8b5bbab388")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW1" output
+			(at 91.44 120.65 0)
+			(uuid "b010fbde-5e32-4ff6-80e4-6cba34c50382")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 73.66)
+		(size 78.74 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27,7 +1248,7 @@
 		)
 		(uuid "5d722130-3434-4894-8d41-26dc4382f270")
 		(property "Sheetname" "mcu"
-			(at 68.58 151.6884 0)
+			(at 110.49 72.9484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38,7 +1259,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 68.58 178.3846 0)
+			(at 110.49 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46,6 +1267,146 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "EPD.BUSY" input
+			(at 189.23 99.06 0)
+			(uuid "4619df96-dfa2-493a-8a1d-b8f913a0e384")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EPD.CS" output
+			(at 189.23 106.68 0)
+			(uuid "1612b4ae-7f89-4aca-aa15-395171486666")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EPD.DC" input
+			(at 189.23 101.6 0)
+			(uuid "177f5843-60ec-4baf-9b06-febeb573c301")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EPD.MOSI" output
+			(at 189.23 104.14 0)
+			(uuid "ce94018f-a30f-45cc-965f-74a10a18abb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EPD.RST" output
+			(at 189.23 96.52 0)
+			(uuid "2278079c-bb5f-42a4-a66b-6b52f2edf7f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EPD.SCK" output
+			(at 189.23 93.98 0)
+			(uuid "bf17ba99-9f24-451d-b06b-72ddd2ab741c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1.SCL" output
+			(at 110.49 118.11 180)
+			(uuid "4044d4dc-a43c-4b37-a658-473d1e79ee61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1.SDA" bidirectional
+			(at 110.49 115.57 180)
+			(uuid "7b3580b4-e6d9-48f9-9750-95e0aca63315")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO2" output
+			(at 110.49 85.09 180)
+			(uuid "dc0db924-179f-41e2-b21b-09528bd4883f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "KBD_INT" input
+			(at 110.49 113.03 180)
+			(uuid "2d035b9c-e497-4115-b8bb-f34ec8859ea6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW1" input
+			(at 110.49 120.65 180)
+			(uuid "cc4a8de7-04f3-4143-aa43-e73cc5ac6d71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_N" bidirectional
+			(at 110.49 100.33 180)
+			(uuid "f4d5490c-cff0-4616-ae7b-21106928cc18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_P" bidirectional
+			(at 110.49 97.79 180)
+			(uuid "db2a2b24-0877-41e7-8dc9-c447e69f4da4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_ADC" input
+			(at 110.49 82.55 180)
+			(uuid "ea7716b7-2daf-44af-8698-bb9f95136fb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -57,7 +1418,7 @@
 		)
 	)
 	(sheet
-		(at 146.05 107.95)
+		(at 110.49 41.91)
 		(size 38.1 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73,7 +1434,7 @@
 		)
 		(uuid "69599ccf-b95c-40ad-bf54-c2752eaa8a20")
 		(property "Sheetname" "battery-charger"
-			(at 146.05 107.2384 0)
+			(at 110.49 41.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -84,7 +1445,7 @@
 			)
 		)
 		(property "Sheetfile" "battery-charger.kicad_sch"
-			(at 146.05 130.1246 0)
+			(at 110.49 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -108,8 +1469,8 @@
 		)
 	)
 	(sheet
-		(at 166.37 66.04)
-		(size 41.91 16.51)
+		(at 69.85 93.98)
+		(size 21.59 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -124,7 +1485,7 @@
 		)
 		(uuid "b97176e7-7611-493e-95a1-ff46bfacccdf")
 		(property "Sheetname" "usb-c"
-			(at 166.37 65.3284 0)
+			(at 69.85 93.2684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -135,7 +1496,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-c.kicad_sch"
-			(at 166.37 83.1346 0)
+			(at 69.85 104.7246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -143,6 +1504,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_N" bidirectional
+			(at 91.44 100.33 0)
+			(uuid "c1bf25be-e6ed-49dc-aae6-270a5bef4bd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_P" bidirectional
+			(at 91.44 97.79 0)
+			(uuid "c33f74f4-d7e8-4732-8a6a-7c27fb81f880")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -159,8 +1540,8 @@
 		)
 	)
 	(sheet
-		(at 81.28 81.28)
-		(size 35.56 26.67)
+		(at 69.85 78.74)
+		(size 21.59 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -175,7 +1556,7 @@
 		)
 		(uuid "c31e5c72-3f65-4932-a34e-bb5f91e41816")
 		(property "Sheetname" "power"
-			(at 81.28 80.5684 0)
+			(at 69.85 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -186,7 +1567,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 81.28 108.5346 0)
+			(at 69.85 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -194,6 +1575,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "IO2" input
+			(at 91.44 85.09 0)
+			(uuid "53e6cb75-fd2e-46ba-86ff-5337c1de80e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_ADC" output
+			(at 91.44 82.55 0)
+			(uuid "3b80c55f-df85-4a42-b287-f1786a33ff6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

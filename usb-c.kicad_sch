@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "b4f8975a-735f-4d25-be36-0a25d363c946")
 	(paper "A4")
+	(title_block
+		(title "Meshpager")
+		(date "2026-08-23")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -1832,7 +1837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f22943a-5a5c-4a09-8136-74f93b42df12")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR044"
 			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1896,6 +1901,12 @@
 					(unit 1)
 				)
 			)
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1910,7 +1921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c7910b3-c512-4713-b101-c4f9766d72fa")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR045"
 			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1975,6 +1986,12 @@
 					(unit 1)
 				)
 			)
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1989,7 +2006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e10543a-e828-4966-be96-789f0f2e11d5")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR046"
 			(at 168.91 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2050,6 +2067,12 @@
 			(project "pcb2"
 				(path "/c0ddd66c-7b46-46d3-9de5-c3245bca1945/b97176e7-7611-493e-95a1-ff46bfacccdf"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2178,6 +2201,12 @@
 					(unit 1)
 				)
 			)
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2191,7 +2220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bd01028-eecd-423e-8f36-764abb855378")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 146.05 97.536 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2211,7 +2240,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.05 97.028 90)
 			(hide yes)
 			(show_name no)
@@ -2257,6 +2286,12 @@
 					(unit 1)
 				)
 			)
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2271,7 +2306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab862b95-d0ce-4caf-aa27-162b278f55d3")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR047"
 			(at 168.91 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2335,6 +2370,12 @@
 					(unit 1)
 				)
 			)
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2349,7 +2390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b39936d9-fb43-4c80-abd0-4722caa55e83")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR043"
 			(at 119.38 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -2413,6 +2454,12 @@
 					(unit 1)
 				)
 			)
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2427,7 +2474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9472e0e-8edc-4113-b76c-f22f99fc5aba")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 170.5611 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2510,6 +2557,12 @@
 					(unit 1)
 				)
 			)
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2523,7 +2576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfba5af3-bed6-4130-88ba-8217fadfd440")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 146.05 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2543,7 +2596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.05 94.488 90)
 			(hide yes)
 			(show_name no)
@@ -2577,15 +2630,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "b22981ce-fb89-4570-8857-46eb81d2748c")
+			(uuid "b22981ce-fb89-4570-8857-46eb81d2748d")
 		)
 		(pin "1"
-			(uuid "e210cce2-d51e-4837-af91-fcca154a7f3b")
+			(uuid "e210cce2-d51e-4837-af91-fcca154a7f3c")
 		)
 		(instances
 			(project "pcb2"
 				(path "/c0ddd66c-7b46-46d3-9de5-c3245bca1945/b97176e7-7611-493e-95a1-ff46bfacccdf"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
+					(reference "R18")
 					(unit 1)
 				)
 			)
