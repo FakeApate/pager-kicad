@@ -1,0 +1,82 @@
+(version 1)
+
+# JLCPCB 4-layer standard service, 1.6 mm, 1 oz outer / 0.5 oz inner.
+# Rename this file to <project-name>.kicad_dru and place it next to the
+# .kicad_pro file. Verify limits against the current JLCPCB capability
+# page before ordering.
+
+# --- Global minimums (standard service, no surcharge) ---
+
+(rule "min track width"
+  (constraint track_width (min 0.09mm))
+  (severity error))
+
+(rule "min clearance"
+  (constraint clearance (min 0.09mm))
+  (severity error))
+
+(rule "min via"
+  (constraint via_diameter (min 0.4mm))
+  (constraint hole_size (min 0.2mm))
+  (condition "A.Type == 'Via'")
+  (severity error))
+
+(rule "min PTH drill"
+  (constraint hole_size (min 0.2mm))
+  (severity error))
+
+(rule "min annular ring"
+  (constraint annular_width (min 0.1mm))
+  (severity error))
+
+(rule "hole to hole spacing"
+  (constraint hole_to_hole (min 0.5mm))
+  (severity error))
+
+(rule "copper to board edge"
+  (constraint edge_clearance (min 0.3mm))
+  (severity error))
+
+# --- Practical design floors (looser than fab minimums on purpose) ---
+
+(rule "default signal track floor"
+  (constraint track_width (min 0.15mm))
+  (condition "A.NetClass == 'Default'")
+  (severity warning))
+
+(rule "power track floor"
+  (constraint track_width (min 0.4mm))
+  (condition "A.NetClass == 'Power'")
+  (severity error))
+
+(rule "high current track floor"
+  (constraint track_width (min 1.0mm))
+  (condition "A.NetClass == 'HighCurrent'")
+  (severity error))
+
+# --- RF ---
+
+# 50 ohm microstrip on L1 referenced to the L2 ground plane.
+# Width assumes the JLC04161H-7628 stackup; confirm with the JLCPCB
+# impedance calculator and adjust both numbers.
+(rule "rf trace impedance width"
+  (constraint track_width (min 0.34mm) (max 0.36mm))
+  (condition "A.NetClass == 'RF50'")
+  (severity error))
+
+(rule "rf clearance to other copper"
+  (constraint clearance (min 0.5mm))
+  (condition "A.NetClass == 'RF50' && B.NetClass != 'RF50'")
+  (severity warning))
+
+# --- Keepouts and hygiene ---
+
+(rule "no vias under crystal courtyard"
+  (constraint disallow via)
+  (condition "A.insideCourtyard('Y*')")
+  (severity warning))
+
+(rule "silkscreen min width"
+  (constraint text_thickness (min 0.15mm))
+  (constraint text_height (min 1.0mm))
+  (severity warning))

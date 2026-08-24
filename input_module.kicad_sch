@@ -825,6 +825,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1120,198 +1243,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pager:D2F-L"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "S"
-				(at 34.29 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "D2F-L"
-				(at 34.29 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "pager:D2FL"
-				(at 34.29 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://components.omron.com/us-en/sites/components.omron.com.us/files/datasheet_pdf/B036-E1.pdf"
-				(at 34.29 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Ultra Subminiature Basic Switch, 125 VAC 3 A, OF:1.47N, Hinge Lever, PCB Terminals"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" ""
-				(at 34.29 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "653-D2F-L"
-				(at 34.29 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/D2F-L?qs=ISjK4nnpKfGN15FPx5TQjg%3D%3D"
-				(at 34.29 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "OMRON Electronics"
-				(at 34.29 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "D2F-L"
-				(at 34.29 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "D2F-L_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 33.02 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "NORMALLY_OPEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "NORMALLY_CLOSED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3VP"
 			(power global)
 			(pin_numbers
@@ -1568,6 +1499,12 @@
 		)
 	)
 	(junction
+		(at 246.38 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03b25c2f-96f5-4530-8fc9-6cf3a3958399")
+	)
+	(junction
 		(at 191.77 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1598,16 +1535,22 @@
 		(uuid "27eb3838-898e-4abd-9679-4033294d3837")
 	)
 	(junction
-		(at 187.96 87.63)
+		(at 231.14 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47f54635-f695-4395-b255-28f0144a90b7")
+		(uuid "353c13a6-8e7e-49c9-8403-7518ccfd4812")
 	)
 	(junction
 		(at 207.01 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4c15349a-e673-40fd-927a-7a458667790a")
+		(uuid "368d8a11-7047-43fe-84e9-d6bf2a00fd1d")
+	)
+	(junction
+		(at 187.96 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47f54635-f695-4395-b255-28f0144a90b7")
 	)
 	(junction
 		(at 45.72 121.92)
@@ -1625,7 +1568,7 @@
 		(at 222.25 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9cd686b1-19a6-4995-b075-2ee9a5e163c5")
+		(uuid "9c5299a6-9c05-4376-bbfa-ac16e326b077")
 	)
 	(junction
 		(at 198.12 58.42)
@@ -1652,6 +1595,18 @@
 		(uuid "bdb0c60a-d567-4aaa-b587-392fa63467b8")
 	)
 	(junction
+		(at 257.81 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c346db6c-3f18-478e-886a-13a2b685d2c9")
+	)
+	(junction
+		(at 214.63 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4bd7586-1857-433b-9753-3fc88ced329a")
+	)
+	(junction
 		(at 187.96 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1668,12 +1623,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efd6049b-22ae-4437-8f00-16709e36bbd4")
-	)
-	(junction
-		(at 214.63 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f68390df-1375-4aa2-8d8c-2fb4e9b3b99d")
 	)
 	(no_connect
 		(at 182.88 90.17)
@@ -1718,10 +1667,6 @@
 	(no_connect
 		(at 116.84 82.55)
 		(uuid "b0173374-1f95-4cb5-8669-223326bc3a7d")
-	)
-	(no_connect
-		(at 222.25 135.89)
-		(uuid "d188e7d9-5cdd-48de-a31e-898dda9388b4")
 	)
 	(no_connect
 		(at 116.84 85.09)
@@ -2013,6 +1958,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 68.58) (xy 257.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591851eb-791f-42a7-bd89-2e37773c97ac")
+	)
+	(wire
+		(pts
 			(xy 71.12 146.05) (xy 71.12 153.67)
 		)
 		(stroke
@@ -2053,6 +2008,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 68.58) (xy 231.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63783ae0-7cbc-4cf4-8505-b22c63394190")
+	)
+	(wire
+		(pts
 			(xy 182.88 82.55) (xy 191.77 82.55)
 		)
 		(stroke
@@ -2063,13 +2028,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 140.97) (xy 215.9 140.97)
+			(xy 257.81 80.01) (xy 261.62 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73a48738-a094-4d5c-b2b1-22b2e6ae45d9")
+		(uuid "6db10b1e-0556-4af2-84f7-2c74aa50ce08")
 	)
 	(wire
 		(pts
@@ -2080,6 +2045,16 @@
 			(type default)
 		)
 		(uuid "76ce2370-6342-4053-800b-a570b5eec019")
+	)
+	(wire
+		(pts
+			(xy 246.38 68.58) (xy 246.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774eb127-4981-49f3-aab6-69888fae3608")
 	)
 	(wire
 		(pts
@@ -2100,6 +2075,16 @@
 			(type default)
 		)
 		(uuid "78e073eb-06e6-47f9-ac2e-3d212dcc0259")
+	)
+	(wire
+		(pts
+			(xy 231.14 74.93) (xy 261.62 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc3ad56-84ba-4d4b-86ca-279061a9beac")
 	)
 	(wire
 		(pts
@@ -2133,23 +2118,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 80.01) (xy 227.33 80.01)
+			(xy 214.63 80.01) (xy 257.81 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9243b9b0-b278-44c7-bb3f-f85dee4da995")
-	)
-	(wire
-		(pts
-			(xy 215.9 138.43) (xy 222.25 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94094c86-9f7b-4390-9167-d95f6a4d4368")
 	)
 	(wire
 		(pts
@@ -2173,7 +2148,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 74.93) (xy 227.33 74.93)
+			(xy 222.25 74.93) (xy 231.14 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2190,16 +2165,6 @@
 			(type default)
 		)
 		(uuid "992c9341-ce83-482a-8b2e-d96678956fd1")
-	)
-	(wire
-		(pts
-			(xy 215.9 140.97) (xy 215.9 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a230fc53-3622-48a6-b4cc-cc4fbcb46416")
 	)
 	(wire
 		(pts
@@ -2283,7 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 77.47) (xy 227.33 77.47)
+			(xy 207.01 77.47) (xy 246.38 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2423,6 +2388,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 77.47) (xy 261.62 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a5fa02-5098-4556-a966-6c24764721d1")
+	)
+	(wire
+		(pts
 			(xy 198.12 85.09) (xy 198.12 71.12)
 		)
 		(stroke
@@ -2453,7 +2428,7 @@
 	)
 	(hierarchical_label "TCA_SCL"
 		(shape input)
-		(at 227.33 77.47 0)
+		(at 261.62 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2464,7 +2439,7 @@
 	)
 	(hierarchical_label "TCA_SDA"
 		(shape bidirectional)
-		(at 227.33 80.01 0)
+		(at 261.62 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2473,20 +2448,9 @@
 		)
 		(uuid "d0016217-7246-4cc5-bd2f-5eddaeb4d9d4")
 	)
-	(hierarchical_label "SW1"
-		(shape output)
-		(at 215.9 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d06fced5-197e-499f-a56e-a0c2a4683080")
-	)
 	(hierarchical_label "TCA_KEYPAD_INT"
 		(shape output)
-		(at 227.33 74.93 0)
+		(at 261.62 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2494,6 +2458,85 @@
 			(justify left)
 		)
 		(uuid "d71f127e-a434-459f-a2e2-eb7c9df5c994")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 257.81 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "005acca6-6fe2-45e5-95e3-24bbdc230c74")
+		(property "Reference" "TP17"
+			(at 260.35 64.0079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCA_SDA"
+			(at 260.35 66.5479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 262.89 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 257.81 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ac77242-a75c-406d-9cd5-b44d46cec540")
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/58f1a030-02e2-4918-ae36-a66fa333c64f"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "$pager:B3U-1000P")
@@ -2505,27 +2548,26 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0e552ebb-c7ca-469d-bb50-b575b08dfe04")
 		(property "Reference" "S4"
-			(at 79.502 139.954 0)
+			(at 81.28 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "B3U-1000P"
-			(at 75.692 150.114 0)
+			(at 81.28 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "pager:B3U-1000P"
@@ -2669,231 +2711,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pager:D2F-L")
-		(at 222.25 140.97 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1a7d0bf9-b195-4112-aae9-92a8e95da54b")
-		(property "Reference" "S7"
-			(at 256.54 139.7001 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D2F-L"
-			(at 256.54 137.1601 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pager:D2FL"
-			(at 256.54 46.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://components.omron.com/us-en/sites/components.omron.com.us/files/datasheet_pdf/B036-E1.pdf"
-			(at 256.54 -53.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Ultra Subminiature Basic Switch, 125 VAC 3 A, OF:1.47N, Hinge Lever, PCB Terminals"
-			(at 222.25 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 256.54 -253.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "653-D2F-L"
-			(at 256.54 -353.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/D2F-L?qs=ISjK4nnpKfGN15FPx5TQjg%3D%3D"
-			(at 256.54 -453.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 256.54 -553.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "D2F-L"
-			(at 256.54 -653.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3"
-			(uuid "0b296479-d8d7-43b8-9751-06d2e2384801")
-		)
-		(pin "2"
-			(uuid "0b26050b-46a9-46a9-8fa6-9cf8413adbaf")
-		)
-		(pin "1"
-			(uuid "d6268114-2b82-4fbe-bfeb-ae74d701e42d")
-		)
-		(instances
-			(project "meshpager"
-				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/58f1a030-02e2-4918-ae36-a66fa333c64f"
-					(reference "S7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 215.9 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1eeff3d6-b24a-43cc-a461-96e4aeacc1ad")
-		(property "Reference" "#PWR054"
-			(at 215.9 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a65ac4e-35ce-483a-8d15-15430720e04b")
-		)
-		(instances
-			(project "meshpager"
-				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/58f1a030-02e2-4918-ae36-a66fa333c64f"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "$pager:B3U-1000P")
 		(at 71.12 121.92 0)
 		(unit 1)
@@ -2903,27 +2720,26 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "22079278-fe9a-4d4f-9be8-0552d3fe9c04")
 		(property "Reference" "S3"
-			(at 80.264 118.364 0)
+			(at 81.28 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "B3U-1000P"
-			(at 75.692 129.032 0)
+			(at 81.28 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "pager:B3U-1000P"
@@ -3158,9 +2974,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "46399c2f-a670-46aa-8c52-eba3d5c1374d")
 		(property "Reference" "S5"
-			(at 103.886 118.11 0)
+			(at 111.76 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3171,7 +2988,7 @@
 			)
 		)
 		(property "Value" "B3U-1000P"
-			(at 100.076 128.27 0)
+			(at 111.76 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3331,27 +3148,26 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "57791bdd-f3f6-40c7-b323-bf363b899d33")
 		(property "Reference" "S1"
-			(at 55.372 118.364 0)
+			(at 57.15 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "B3U-1000P"
-			(at 51.308 128.524 0)
+			(at 57.15 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "pager:B3U-1000P"
@@ -3506,7 +3322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68cedf65-a0c6-4753-92f4-7c86ddf87647")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR064"
 			(at 195.58 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3518,13 +3334,14 @@
 			)
 		)
 		(property "Value" "+3V3_S"
-			(at 191.77 48.26 0)
+			(at 194.31 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3566,7 +3383,7 @@
 		(instances
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/58f1a030-02e2-4918-ae36-a66fa333c64f"
-					(reference "#PWR053")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3664,27 +3481,26 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6a70456f-8c5c-480a-9d5e-ec1cc5e39682")
 		(property "Reference" "S2"
-			(at 55.88 139.954 0)
+			(at 57.15 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "B3U-1000P"
-			(at 51.308 150.368 0)
+			(at 57.15 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "pager:B3U-1000P"
@@ -3828,6 +3644,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 231.14 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b0ee6e1-5c61-4193-aff6-0e321db5174f")
+		(property "Reference" "TP15"
+			(at 233.68 64.0079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCA_KP_INT"
+			(at 233.68 66.5479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 236.22 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 231.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ac77242-a75c-406d-9cd5-b44d46cec541")
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/58f1a030-02e2-4918-ae36-a66fa333c64f"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VP")
 		(at 85.09 21.59 0)
 		(unit 1)
@@ -3839,7 +3734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92a35731-ee53-40c3-b99f-bfa7c6ed2442")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR061"
 			(at 88.9 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -3851,13 +3746,14 @@
 			)
 		)
 		(property "Value" "+3V3_S"
-			(at 85.09 16.51 0)
+			(at 87.63 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3899,7 +3795,7 @@
 		(instances
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/58f1a030-02e2-4918-ae36-a66fa333c64f"
-					(reference "#PWR050")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3917,7 +3813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8ea50a5-09f1-4a94-be1b-c3e168d25bd4")
-		(property "Reference" "C17"
+		(property "Reference" "C24"
 			(at 80.01 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3987,7 +3883,7 @@
 			)
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/58f1a030-02e2-4918-ae36-a66fa333c64f"
-					(reference "C17")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -4093,7 +3989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0fa0518-c85e-4c39-b05f-0ba1783821d6")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 149.86 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4235,7 +4131,7 @@
 			)
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/58f1a030-02e2-4918-ae36-a66fa333c64f"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4251,9 +4147,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bcae11aa-25f1-4119-87ac-1f545dbec6b4")
 		(property "Reference" "S6"
-			(at 104.394 139.954 0)
+			(at 111.76 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4264,7 +4161,7 @@
 			)
 		)
 		(property "Value" "B3U-1000P"
-			(at 99.314 150.114 0)
+			(at 111.76 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4415,6 +4312,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c49f177d-e352-42d7-abbd-e2602e0d0674")
+		(property "Reference" "TP16"
+			(at 248.92 64.0079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCA_SCL"
+			(at 248.92 66.5479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 251.46 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ac77242-a75c-406d-9cd5-b44d46cec542")
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/58f1a030-02e2-4918-ae36-a66fa333c64f"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 92.71 35.56 0)
 		(unit 1)
@@ -4426,7 +4402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c69b2168-b68e-4c1c-b5e0-17d00ee680b1")
-		(property "Reference" "C18"
+		(property "Reference" "C25"
 			(at 96.52 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4496,7 +4472,7 @@
 			)
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/58f1a030-02e2-4918-ae36-a66fa333c64f"
-					(reference "C18")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4596,7 +4572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd1b0384-d45a-4f69-9435-55285758f40e")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR062"
 			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4608,13 +4584,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 53.34 0)
+			(at 87.63 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4662,7 +4639,7 @@
 			)
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/58f1a030-02e2-4918-ae36-a66fa333c64f"
-					(reference "#PWR051")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4680,7 +4657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d855d827-f17a-4a14-a87e-e39dfe48f9dd")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR063"
 			(at 187.96 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4692,13 +4669,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 115.57 0)
+			(at 190.5 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4746,7 +4724,7 @@
 			)
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/58f1a030-02e2-4918-ae36-a66fa333c64f"
-					(reference "#PWR052")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)

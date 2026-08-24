@@ -250,44 +250,26 @@
 		)
 	)
 	(junction
-		(at 40.64 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ba021aa-ebd0-4d34-ab5f-87956fa86b15")
-	)
-	(junction
-		(at 45.72 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "570f9894-a79b-48c2-9a6e-1c94ceeb935f")
-	)
-	(junction
-		(at 35.56 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6430eb81-05df-44f1-82ac-987baff60f56")
-	)
-	(junction
 		(at 30.48 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de757577-89c5-4265-ac5b-f6a230644ebf")
 	)
 	(junction
-		(at 38.1 148.59)
+		(at 35.56 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5f13835-b5a8-4379-9395-09ce562c1654")
+		(uuid "e3d74eaa-d2df-4e3e-aba1-7e533b104233")
 	)
 	(wire
 		(pts
-			(xy 38.1 148.59) (xy 40.64 148.59)
+			(xy 35.56 148.59) (xy 35.56 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03d1f76d-af89-4496-89f1-660233b5f3b6")
+		(uuid "0a46c481-25bd-4ca9-b0c4-908b9109d10b")
 	)
 	(wire
 		(pts
@@ -298,16 +280,6 @@
 			(type default)
 		)
 		(uuid "22a22834-fc98-42e0-98af-74f6327c110b")
-	)
-	(wire
-		(pts
-			(xy 35.56 148.59) (xy 38.1 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e729a0c-ba4e-48ba-bf52-95a854bb8d95")
 	)
 	(wire
 		(pts
@@ -348,16 +320,6 @@
 			(type default)
 		)
 		(uuid "7565f460-34d7-4e19-b799-bd52f66c15ef")
-	)
-	(wire
-		(pts
-			(xy 45.72 148.59) (xy 50.8 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "801893fe-763c-4d45-9376-5bfff76860a6")
 	)
 	(wire
 		(pts
@@ -411,16 +373,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 148.59) (xy 45.72 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a99472f3-1326-4bc4-bdf5-22b1e5536052")
-	)
-	(wire
-		(pts
 			(xy 91.44 85.09) (xy 110.49 85.09)
 		)
 		(stroke
@@ -471,102 +423,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 151.13) (xy 38.1 148.59)
+			(xy 35.56 148.59) (xy 40.64 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7d11707-ebfa-4372-bc0b-d096fd1e01e8")
-	)
-	(wire
-		(pts
-			(xy 91.44 120.65) (xy 110.49 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7e18d2e-6876-4a38-92f0-6ff3f591ea15")
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 40.64 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "3d6dffb9-5630-456b-ba9b-6384783be0bb")
-		(property "Reference" "H4"
-			(at 39.116 141.986 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 43.18 146.0499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 40.64 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 40.64 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "722a3496-0a4c-49c9-aa67-8c37a18fe05c")
-		)
-		(instances
-			(project "meshpager"
-				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "d0222eed-6064-4add-8ca6-07b3d8a12b7d")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -578,9 +441,10 @@
 		(on_board yes)
 		(in_pos_files no)
 		(dnp no)
-		(uuid "4fe002cd-3971-4152-bb16-9475bde653fa")
+		(uuid "07f0d68e-e9ae-4035-9561-e1fc8c105c66")
 		(property "Reference" "H3"
 			(at 34.036 141.986 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -636,89 +500,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "722a3496-0a4c-49c9-aa67-8c37a18fe05c")
+			(uuid "c2fcef2a-fa1a-442d-a914-5613273a5af8")
 		)
 		(instances
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 50.8 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c07d666-ec0c-42d0-b3e3-a0be7e8cb271")
-		(property "Reference" "H6"
-			(at 50.8 141.986 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 50.8 141.605 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 50.8 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 50.8 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e13887a-84af-4cb1-8938-9f6be7eb4659")
-		)
-		(instances
-			(project "meshpager"
-				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
-					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -737,6 +524,7 @@
 		(uuid "b2bf47ed-419c-4737-a9ea-febcaffca7dc")
 		(property "Reference" "H2"
 			(at 28.956 141.986 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -792,7 +580,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "722a3496-0a4c-49c9-aa67-8c37a18fe05c")
+			(uuid "722a3496-0a4c-49c9-aa67-8c37a18fe05e")
 		)
 		(instances
 			(project "meshpager"
@@ -805,7 +593,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 45.72 146.05 0)
+		(at 40.64 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -813,9 +601,10 @@
 		(on_board yes)
 		(in_pos_files no)
 		(dnp no)
-		(uuid "b5e5933b-ec5d-4014-b13e-a022d10cfbca")
-		(property "Reference" "H5"
-			(at 44.196 141.986 0)
+		(uuid "b9ec2672-1983-4ad3-944c-a89ebe0394d6")
+		(property "Reference" "H4"
+			(at 39.116 141.986 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -826,7 +615,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 48.26 146.0499 0)
+			(at 43.18 146.0499 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -838,7 +627,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 45.72 146.05 0)
+			(at 40.64 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -849,7 +638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 146.05 0)
+			(at 40.64 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -860,7 +649,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 45.72 146.05 0)
+			(at 40.64 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -871,12 +660,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "722a3496-0a4c-49c9-aa67-8c37a18fe05c")
+			(uuid "99a0ebe4-e23b-42f3-8013-ccafd271be7d")
 		)
 		(instances
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
-					(reference "H5")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -884,7 +673,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 151.13 0)
+		(at 35.56 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -895,7 +684,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb2c0642-4411-42be-bab9-517cafa53f4e")
 		(property "Reference" "#PWR01"
-			(at 38.1 157.48 0)
+			(at 35.56 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -906,7 +695,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 156.21 0)
+			(at 35.56 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -916,7 +705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 151.13 0)
+			(at 35.56 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -927,7 +716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 151.13 0)
+			(at 35.56 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -938,7 +727,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 151.13 0)
+			(at 35.56 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -973,6 +762,7 @@
 		(uuid "ee943a9e-6ace-4aef-a0cd-e28b19736ddf")
 		(property "Reference" "H1"
 			(at 23.876 141.986 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1028,7 +818,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "722a3496-0a4c-49c9-aa67-8c37a18fe05c")
+			(uuid "722a3496-0a4c-49c9-aa67-8c37a18fe060")
 		)
 		(instances
 			(project "meshpager"
@@ -1213,16 +1003,6 @@
 				(justify right)
 			)
 		)
-		(pin "SW1" output
-			(at 91.44 120.65 0)
-			(uuid "b010fbde-5e32-4ff6-80e4-6cba34c50382")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a"
@@ -1362,16 +1142,6 @@
 		(pin "KBD_INT" input
 			(at 110.49 113.03 180)
 			(uuid "2d035b9c-e497-4115-b8bb-f34ec8859ea6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SW1" input
-			(at 110.49 120.65 180)
-			(uuid "cc4a8de7-04f3-4143-aa43-e73cc5ac6d71")
 			(effects
 				(font
 					(size 1.27 1.27)

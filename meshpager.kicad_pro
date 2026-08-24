@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -520,7 +520,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "pager"
+      "pager",
+      "pager-jlc"
     ],
     "pinned_symbol_libs": []
   },
@@ -532,7 +533,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.01,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -543,11 +544,57 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.25,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.3,
+        "name": "Sensitive",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.3,
+        "name": "Switching",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.45,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.25,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -555,7 +602,52 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "V*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "BAT_CELL"
+      },
+      {
+        "netclass": "Switching",
+        "pattern": "*-SW)"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*USB_*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "Net-(J4-D*"
+      },
+      {
+        "netclass": "Sensitive",
+        "pattern": "*VBAT_ADC"
+      },
+      {
+        "netclass": "Sensitive",
+        "pattern": "Net-(U5-CC)"
+      },
+      {
+        "netclass": "Sensitive",
+        "pattern": "Net-(U3-*)"
+      },
+      {
+        "netclass": "Sensitive",
+        "pattern": "Net-(U2-ON)"
+      },
+      {
+        "netclass": "Sensitive",
+        "pattern": "Net-(U4-EN)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -563,7 +655,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "meshpager.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -596,58 +688,58 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Position Files",
-          "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Do Not Place",
+          "name": "${DNP}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
         },
         {
           "group_by": false,
@@ -726,6 +818,12 @@
           "label": "Arrow Part Number",
           "name": "Arrow Part Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sector",
+          "name": "Sector",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -776,7 +874,7 @@
         "uuid": "d34a9893-cd16-421e-bfb0-6315046aba1a"
       }
     ],
-    "used_designators": "L1-4,D1-4,#PWR1-55,Q1-2,CN1-2,C1-20,R1-24,U1-9,TH1-2,J1-7,SW1-2,BT1-2,H1-7,S1-12",
+    "used_designators": "L1-4,D1-4,TP_BATT1,#PWR1-72,Q1-2,CN1-2,C1-25,TP_5V.1,R1-24,U1-9,TP_VDC1,TH1-2,J1-7,SW1-2,BT1-2,TP_BATT.1,H1-7,S1-12,TP1-22,TP_3V1,TP_3V3_S1,TP_5V1,TP_GND1,TP_VBUS1,TP_3V3.1,TP_3V3_S.1,TP_GND.1-5,TP_VBUS.1,TP_VDC.1,TP_MCU_GATE.2,USB1-2",
     "variants": []
   },
   "sheets": [

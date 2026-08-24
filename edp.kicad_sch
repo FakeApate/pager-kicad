@@ -9,48 +9,42 @@
 		(rev "1")
 	)
 	(lib_symbols
-		(symbol "$pager:B8B-PH-K-S_LF__SN_"
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Value" "B8B-PH-K-S_LF__SN_"
-				(at 16.51 5.08 0)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Footprint" "pager:B8BPHKSLFSN"
-				(at 16.51 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"
-				(at 16.51 -194.92 0)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -58,10 +52,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Description" "WIRE TO BOARD CONNECTOR, HEADER, 8 POSITION, 1ROW; Pitch Spacing:2mm; No. of Contacts:8Contacts; Gender:Header; Product Range:PH Series; Contact Termination Type:Through Hole; No. of Rows:1Rows; Contact Plating:Tin Plated Contacts RoHS Compliant: Yes"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -72,8 +65,8 @@
 					)
 				)
 			)
-			(property "Height" "6"
-				(at 16.51 -394.92 0)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -81,11 +74,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-				(at 16.51 -494.92 0)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -93,11 +85,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "B8B-PH-K-S(LF)(SN)"
-				(at 16.51 -594.92 0)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -105,73 +96,39 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "N/A"
-				(at 16.51 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B8B-PH-K-SLFSN?qs=IKkN%2F947nfBFczHF%2F78nZA%3D%3D"
-				(at 16.51 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" "B8B-PH-K-S(LF)(SN)"
-				(at 16.51 -894.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b8b-ph-k-s-lf-sn_1/jst-manufacturing.html?utm_currency=USD&region=europe"
-				(at 16.51 -994.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "B8B-PH-K-S_LF__SN__1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -20.32)
 					(stroke
-						(width 0.254)
+						(width 0.508)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
 				(pin passive line
-					(at 0 -17.78 0)
-					(length 5.08)
-					(name "1"
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -187,8 +144,173 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pager-jlc:S8B-PH-SM4-TB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "S8B-PH-SM4-TB"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "pager-jlc:CONN-SMD_8P-P2.00_S8B-PH-SM4-TB-LF-SN"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_JST-Sales-America-S8B-PH-SM4-TB-LF-SN_C265121.html"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "S8B-PH-SM4-TB(LF)(SN)"
+				(at 0 -29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C265121"
+				(at 0 -31.75 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "S8B-PH-SM4-TB_0_1"
+				(rectangle
+					(start -2.54 11.43)
+					(end 5.08 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 10.16)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 8.89 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 6.35 0)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -204,9 +326,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
 					(name "3"
 						(effects
 							(font
@@ -222,9 +344,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
 					(name "4"
 						(effects
 							(font
@@ -240,9 +362,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
 					(name "5"
 						(effects
 							(font
@@ -258,9 +380,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
 					(name "6"
 						(effects
 							(font
@@ -276,9 +398,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
+				(pin unspecified line
+					(at -5.08 -6.35 0)
+					(length 2.54)
 					(name "7"
 						(effects
 							(font
@@ -294,9 +416,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
+				(pin unspecified line
+					(at -5.08 -8.89 0)
+					(length 2.54)
 					(name "8"
 						(effects
 							(font
@@ -305,6 +427,42 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -13.97 90)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 13.97 270)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -570,6 +728,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 144.78 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00d616e9-61a9-40af-90a7-0a81bac3ce62")
+	)
+	(junction
+		(at 144.78 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "463f8edd-b4f5-4168-befe-642e3404b591")
+	)
+	(junction
+		(at 154.94 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b12a153-314a-4477-bdcd-eebce0667542")
+	)
+	(junction
+		(at 137.16 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7bfbc87-d5f1-48cd-9bf6-3f7efce996ff")
+	)
 	(wire
 		(pts
 			(xy 137.16 107.95) (xy 147.32 107.95)
@@ -589,6 +771,16 @@
 			(type default)
 		)
 		(uuid "276c5b6f-9868-4eb1-8e0f-7172047da5e3")
+	)
+	(wire
+		(pts
+			(xy 161.29 87.63) (xy 161.29 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401751e1-5e05-4aa6-9ff8-11d32283a04d")
 	)
 	(wire
 		(pts
@@ -622,7 +814,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 107.95) (xy 137.16 120.65)
+			(xy 137.16 107.95) (xy 137.16 125.73)
 		)
 		(stroke
 			(width 0)
@@ -639,6 +831,16 @@
 			(type default)
 		)
 		(uuid "8406fe6a-c8f9-412d-8b93-71e5a0a5da7b")
+	)
+	(wire
+		(pts
+			(xy 161.29 115.57) (xy 154.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965aaece-0ef2-4e78-afad-625b412b4dce")
 	)
 	(wire
 		(pts
@@ -662,6 +864,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 87.63) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e2c0d5-b9b0-44b6-9e38-ad69273853bd")
+	)
+	(wire
+		(pts
 			(xy 147.32 110.49) (xy 144.78 110.49)
 		)
 		(stroke
@@ -669,6 +881,56 @@
 			(type default)
 		)
 		(uuid "cbd51886-2aee-4dea-bf6a-8b26ecb685cd")
+	)
+	(wire
+		(pts
+			(xy 137.16 125.73) (xy 137.16 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6abd47f-6923-4f59-b2dd-9ce8487c2568")
+	)
+	(wire
+		(pts
+			(xy 144.78 118.11) (xy 144.78 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e86b1a-8096-499f-8f8e-c926a0290f72")
+	)
+	(wire
+		(pts
+			(xy 154.94 125.73) (xy 154.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc267383-58a6-4471-b8ee-58c4b34a6a48")
+	)
+	(wire
+		(pts
+			(xy 137.16 125.73) (xy 144.78 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed7051d-e4d0-4bb5-a703-5488a4b30cb9")
+	)
+	(wire
+		(pts
+			(xy 144.78 125.73) (xy 154.94 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9387cac-b1c7-46ec-bfd1-df11cbe4c50c")
 	)
 	(hierarchical_label "EPD.RST"
 		(shape input)
@@ -738,7 +1000,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 120.65 0)
+		(at 137.16 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -748,8 +1010,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ea4ca3b-1d83-400b-bead-bfe22054be13")
-		(property "Reference" "#PWR048"
-			(at 137.16 127 0)
+		(property "Reference" "#PWR059"
+			(at 137.16 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -760,17 +1022,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 125.73 0)
+			(at 139.7 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 120.65 0)
+			(at 137.16 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -781,7 +1044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 120.65 0)
+			(at 137.16 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -792,7 +1055,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 120.65 0)
+			(at 137.16 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -808,7 +1071,89 @@
 		(instances
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/06cffab7-f4a7-4464-9b1c-916d20488eb7"
-					(reference "#PWR048")
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ce28d4c-b15b-462f-b7cf-85a36cf86ae5")
+		(property "Reference" "C23"
+			(at 148.59 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 148.59 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 145.7452 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6cea3a8-5ce9-41b7-b330-e67d288e9bbe")
+		)
+		(pin "2"
+			(uuid "d96d5328-e9dc-4e96-9115-9055eff1df6f")
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/06cffab7-f4a7-4464-9b1c-916d20488eb7"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -826,7 +1171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0a508f4-ec07-4fc9-8d53-aacc106784e7")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR060"
 			(at 148.59 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -838,13 +1183,14 @@
 			)
 		)
 		(property "Value" "+3V3_S"
-			(at 144.78 80.01 0)
+			(at 147.32 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -886,15 +1232,16 @@
 		(instances
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/06cffab7-f4a7-4464-9b1c-916d20488eb7"
-					(reference "#PWR049")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "$pager:B8B-PH-K-S_LF__SN_")
-		(at 147.32 92.71 0)
+		(lib_id "pager-jlc:S8B-PH-SM4-TB")
+		(at 152.4 101.6 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -902,10 +1249,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f17ec63b-e4bd-4fd1-addf-8191338a9578")
-		(property "Reference" "J3"
-			(at 163.83 100.3299 0)
+		(uuid "d5d2f631-0ef3-4e5d-b9d0-7b9155dca324")
+		(property "Reference" "J5"
+			(at 158.75 102.8701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -915,8 +1261,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B8B-PH-K-S(LF)(SN)"
-			(at 163.83 102.8699 0)
+		(property "Value" "S8B-PH-SM4-TB"
+			(at 158.75 100.3301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -926,32 +1272,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pager:B8BPHKSLFSN"
-			(at 163.83 187.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"
-			(at 163.83 287.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "WIRE TO BOARD CONNECTOR, HEADER, 8 POSITION, 1ROW; Pitch Spacing:2mm; No. of Contacts:8Contacts; Gender:Header; Product Range:PH Series; Contact Termination Type:Through Hole; No. of Rows:1Rows; Contact Plating:Tin Plated Contacts RoHS Compliant: Yes"
-			(at 147.32 92.71 0)
+		(property "Footprint" "pager-jlc:CONN-SMD_8P-P2.00_S8B-PH-SM4-TB-LF-SN"
+			(at 152.4 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -961,8 +1283,8 @@
 				)
 			)
 		)
-		(property "Height" "6"
-			(at 163.83 487.63 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_JST-Sales-America-S8B-PH-SM4-TB-LF-SN_C265121.html"
+			(at 152.4 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -970,11 +1292,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 163.83 587.63 0)
+		(property "Description" ""
+			(at 152.4 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -982,11 +1303,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "B8B-PH-K-S(LF)(SN)"
-			(at 163.83 687.63 0)
+		(property "Manufacturer" "JST"
+			(at 152.4 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -994,11 +1314,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "N/A"
-			(at 163.83 787.63 0)
+		(property "MPN" "S8B-PH-SM4-TB(LF)(SN)"
+			(at 152.4 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1006,11 +1325,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B8B-PH-K-SLFSN?qs=IKkN%2F947nfBFczHF%2F78nZA%3D%3D"
-			(at 163.83 887.63 0)
+		(property "LCSC Part" "C265121"
+			(at 152.4 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1018,67 +1336,42 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
-		)
-		(property "Arrow Part Number" "B8B-PH-K-S(LF)(SN)"
-			(at 163.83 987.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b8b-ph-k-s-lf-sn_1/jst-manufacturing.html?utm_currency=USD&region=europe"
-			(at 163.83 1087.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "225efeec-b2b5-4638-861d-94544dd2b246")
-		)
-		(pin "4"
-			(uuid "ec815846-d44a-4a8a-8b91-6174d10bc2f1")
-		)
-		(pin "5"
-			(uuid "8b78dbdd-89c3-434a-bdf5-4dec53b436ae")
-		)
-		(pin "3"
-			(uuid "e9966693-7edb-4951-a541-99b4a55331b7")
-		)
-		(pin "6"
-			(uuid "f8f05b82-f550-4f2a-8a7f-f16bfe81e259")
-		)
-		(pin "7"
-			(uuid "6de9b3bc-5f29-4384-b448-9af593003068")
-		)
-		(pin "8"
-			(uuid "7aafddbd-0cf5-4742-9989-dd9887672b72")
 		)
 		(pin "1"
-			(uuid "a47eae5a-815e-4f5e-ba30-d2744eb01d4d")
+			(uuid "bccef0a9-e583-417e-beba-d854581f3b85")
+		)
+		(pin "2"
+			(uuid "0c1cf5e8-26c8-4558-97f2-c3b3a8e38a95")
+		)
+		(pin "3"
+			(uuid "aa044b84-cb31-4e37-a1dc-0a316eea4db2")
+		)
+		(pin "4"
+			(uuid "3959262a-84a7-414d-a519-a7721a56e4d3")
+		)
+		(pin "5"
+			(uuid "ed1258b0-ccbb-4e35-8c4b-d98118198c7d")
+		)
+		(pin "6"
+			(uuid "0035cd34-a232-43b9-a196-891837771f75")
+		)
+		(pin "8"
+			(uuid "986c72ac-7181-436d-b969-c4cba1076f0a")
+		)
+		(pin "10"
+			(uuid "796cf4a2-2c12-4619-8f86-bf594fa3baa3")
+		)
+		(pin "7"
+			(uuid "e78677b4-bb1c-456f-8d06-9b958fdfa474")
+		)
+		(pin "9"
+			(uuid "e9e534fc-c311-477d-b5fc-8be3041efb6a")
 		)
 		(instances
-			(project "pager"
-				(path "/8bb3cc89-f5fe-4c55-b920-999b1eef2eea"
-					(reference "J3")
-					(unit 1)
-				)
-			)
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/06cffab7-f4a7-4464-9b1c-916d20488eb7"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)

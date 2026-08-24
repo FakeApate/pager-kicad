@@ -1585,19 +1585,19 @@
 		(at 138.43 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "715d02fa-0849-4fb5-b55f-8360de7e006a")
+		(uuid "09a779f5-d035-4641-a07f-2033b3586eb3")
+	)
+	(junction
+		(at 138.43 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27db5d53-17a2-4f28-b1b0-712f9177aad4")
 	)
 	(junction
 		(at 119.38 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9faae5b1-e1d3-48b9-9831-81a7584b63b7")
-	)
-	(junction
-		(at 138.43 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac0cb31c-9cd3-4557-95e7-558158f49604")
 	)
 	(junction
 		(at 149.86 93.98)
@@ -1826,6 +1826,142 @@
 		(uuid "898bb88e-68be-4a0e-abbd-a4bb82caf559")
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 123.19 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fcffb32-e604-4d00-add3-bd77fe2b86b3")
+		(property "Reference" "J4"
+			(at 123.19 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 123.19 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+			(at 127 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 127 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 123.19 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2988369"
+			(at 123.19 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A12"
+			(uuid "5aae8b16-1734-4016-83c2-12e4baadd32a")
+		)
+		(pin "A6"
+			(uuid "9b7e76c5-4c07-4059-a0fe-b497eb139a7d")
+		)
+		(pin "A4"
+			(uuid "4c9844ff-3af6-424c-9248-4c85b85dba43")
+		)
+		(pin "B8"
+			(uuid "fdd68252-4a38-41fb-b5a7-9f1a877ce937")
+		)
+		(pin "B12"
+			(uuid "6234798a-0757-4743-9ea6-c12b18559f6d")
+		)
+		(pin "B1"
+			(uuid "22c452bd-0d7c-42a8-906c-ceeea3c04743")
+		)
+		(pin "B5"
+			(uuid "a4af15b8-996f-4452-af55-e7843b220615")
+		)
+		(pin "B6"
+			(uuid "7119a99d-2e68-45fc-a0dd-6eaf6add1729")
+		)
+		(pin "A1"
+			(uuid "0be62e14-21ce-4787-9331-02b0079b7190")
+		)
+		(pin "A7"
+			(uuid "d8079566-a7ed-4733-8b8d-db8dbf4d6781")
+		)
+		(pin "A8"
+			(uuid "e3de1e32-4d53-439e-a7cd-991892e1b801")
+		)
+		(pin "A9"
+			(uuid "54c4f2a4-5723-4d36-8956-38a9a187d2d0")
+		)
+		(pin "A5"
+			(uuid "5fc004c4-cc7f-4693-b927-3165b69c9562")
+		)
+		(pin "B7"
+			(uuid "256e9212-52cd-458b-b30f-6281aedcb9ba")
+		)
+		(pin "SH"
+			(uuid "2f0ade51-0877-4b8f-a6a1-a91078e8f6fb")
+		)
+		(pin "B9"
+			(uuid "9adfc211-5295-458f-9117-0d27ba42b811")
+		)
+		(pin "B4"
+			(uuid "cfa3abfd-72ee-4e2e-9993-f23d9212f5b4")
+		)
+		(instances
+			(project "meshpager"
+				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 138.43 81.28 0)
 		(unit 1)
@@ -1837,7 +1973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f22943a-5a5c-4a09-8136-74f93b42df12")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR055"
 			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1849,13 +1985,14 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 138.43 76.2 0)
+			(at 140.97 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1903,7 +2040,7 @@
 			)
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
-					(reference "#PWR044")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -1921,7 +2058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c7910b3-c512-4713-b101-c4f9766d72fa")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR056"
 			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1988,7 +2125,7 @@
 			)
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
-					(reference "#PWR045")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2006,7 +2143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e10543a-e828-4966-be96-789f0f2e11d5")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR057"
 			(at 168.91 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2018,13 +2155,14 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 168.91 86.36 0)
+			(at 171.45 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2072,138 +2210,7 @@
 			)
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 123.19 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f343b04-568a-4b59-960c-c05551a575fc")
-		(property "Reference" "J2"
-			(at 123.19 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 123.19 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 127 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 127 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 123.19 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A9"
-			(uuid "2d197d58-a36a-4ae4-82af-c0f2c2f42a06")
-		)
-		(pin "A12"
-			(uuid "dfbb5a0f-6dc9-4d88-90f5-c1b7cdbd2c9a")
-		)
-		(pin "B6"
-			(uuid "96b3fff3-741e-4d2a-9f32-a7299745be50")
-		)
-		(pin "A7"
-			(uuid "c5a50c79-4b80-429c-b09e-cc6ae81bfc32")
-		)
-		(pin "B9"
-			(uuid "6422815e-66f9-43e5-8be9-5bbe9ee6a575")
-		)
-		(pin "SH"
-			(uuid "20d27ae4-e4f5-457e-b8af-5e2450744dbf")
-		)
-		(pin "A5"
-			(uuid "43cbea50-29fe-40e8-a59d-af84e360ad5e")
-		)
-		(pin "B5"
-			(uuid "7552885b-f287-419c-987d-edef6eedf2cb")
-		)
-		(pin "A1"
-			(uuid "fd5a3fe4-a732-4c45-a8d7-93f2d0b18150")
-		)
-		(pin "A4"
-			(uuid "382037e4-4240-4e2b-b84e-ea0735f4cc0d")
-		)
-		(pin "A6"
-			(uuid "9476a62c-f6b2-449e-8ef0-add9c632422c")
-		)
-		(pin "A8"
-			(uuid "f1632f53-7914-4639-921a-e8ebee8bade5")
-		)
-		(pin "B1"
-			(uuid "2d0c59a8-922d-41ec-8236-957ca90e1114")
-		)
-		(pin "B4"
-			(uuid "13a8620e-5f32-4ac2-a9b6-2f16a13a141e")
-		)
-		(pin "B7"
-			(uuid "6e1c01f1-84e4-4fa6-a322-a59c09a53e2d")
-		)
-		(pin "B8"
-			(uuid "2938c220-f920-4c5e-bb9a-c6b5cc75efe0")
-		)
-		(pin "B12"
-			(uuid "473338fe-0766-4534-92e7-1d11de2f5fd4")
-		)
-		(instances
-			(project "pcb2"
-				(path "/c0ddd66c-7b46-46d3-9de5-c3245bca1945/b97176e7-7611-493e-95a1-ff46bfacccdf"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-			(project "meshpager"
-				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
-					(reference "J2")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2219,9 +2226,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9bd01028-eecd-423e-8f36-764abb855378")
 		(property "Reference" "R19"
-			(at 146.05 97.536 90)
+			(at 146.05 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2231,7 +2239,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 146.05 95.25 90)
+			(at 146.05 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2306,7 +2314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab862b95-d0ce-4caf-aa27-162b278f55d3")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR058"
 			(at 168.91 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2318,13 +2326,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 120.65 0)
+			(at 171.45 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2372,7 +2381,7 @@
 			)
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
-					(reference "#PWR047")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2390,7 +2399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b39936d9-fb43-4c80-abd0-4722caa55e83")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR054"
 			(at 119.38 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -2402,13 +2411,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 134.62 0)
+			(at 121.92 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2456,7 +2466,7 @@
 			)
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
-					(reference "#PWR043")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2474,7 +2484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9472e0e-8edc-4113-b76c-f22f99fc5aba")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 170.5611 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2559,7 +2569,7 @@
 			)
 			(project "meshpager"
 				(path "/d34a9893-cd16-421e-bfb0-6315046aba1a/b97176e7-7611-493e-95a1-ff46bfacccdf"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2575,9 +2585,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "dfba5af3-bed6-4130-88ba-8217fadfd440")
 		(property "Reference" "R18"
-			(at 146.05 90.678 90)
+			(at 146.05 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2587,7 +2598,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 146.05 92.71 90)
+			(at 146.05 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
