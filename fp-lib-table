@@ -1,5 +1,5 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "pager-jlc") (type "KiCad") (uri "${KIPRJMOD}/../lib/pager-jlc.pretty") (options "") (descr ""))
-	(lib (name "pager") (type "KiCad") (uri "${KIPRJMOD}/../pcb/pager.pretty") (options "") (descr ""))
+	(lib (name "pager-jlc") (type "KiCad") (uri "C:/Users/sam/Documents/pager-project/lib/pager-jlc.pretty") (options "") (descr ""))
+	(lib (name "pager") (type "KiCad") (uri "C:/Users/sam/Documents/pager-project/pcb/pager.pretty") (options "") (descr ""))
 )
