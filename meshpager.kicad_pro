@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -772,7 +772,7 @@
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -877,7 +877,7 @@
         "uuid": "d34a9893-cd16-421e-bfb0-6315046aba1a"
       }
     ],
-    "used_designators": "L1-4,D1-4,TP_BATT1,#PWR1-72,Q1-2,CN1-2,C1-25,TP_5V.1,R1-24,U1-9,TP_VDC1,TH1-2,J1-8,SW1-2,BT1-2,TP_BATT.1,H1-8,S1-12,TP1-22,TP_3V1,TP_3V3_S1,TP_5V1,TP_GND1,TP_VBUS1,TP_3V3.1,TP_3V3_S.1,TP_GND.1-5,TP_VBUS.1,TP_VDC.1,TP_MCU_GATE.2,USB1-2",
+    "used_designators": "TP_BATT1,#PWR1-72,D1-4,L1-4,CN1-2,Q1-2,C1-25,R1-24,TP_5V.1,U1-9,TH1-2,TP_VDC1,J1-8,SW1-2,BT1-2,H1-9,TP_BATT.1,S1-12,TP1-22,TP_3V1,TP_3V3_S1,TP_5V1,TP_GND1,TP_VBUS1,TP_3V3.1,TP_3V3_S.1,TP_GND.1-5,TP_VBUS.1,TP_VDC.1,TP_MCU_GATE.2,USB1-2,FID1-7",
     "variants": []
   },
   "sheets": [

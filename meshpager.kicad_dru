@@ -76,7 +76,20 @@
   (condition "A.insideCourtyard('Y*')")
   (severity warning))
 
+# Silkscreen only. F.Fab/B.Fab reference markers are documentation, not
+# artwork, and the KiCad libraries deliberately scale them to the body size.
 (rule "silkscreen min width"
   (constraint text_thickness (min 0.15mm))
   (constraint text_height (min 1.0mm))
+  (condition "A.Layer == 'F.Silkscreen' || A.Layer == 'B.Silkscreen'")
+  (severity warning))
+
+# The GT-USB-7010ASV land pattern places the NPTH alignment pegs 0.19 mm from
+# the A1/A12/B1/B12 shield-ground pads. That spacing is the connector maker's
+# recommendation and cannot be opened up without leaving the land pattern, so
+# hole-to-copper inside J4 is checked against the fab floor instead of the
+# 0.25 mm board default.
+(rule "usb-c alignment peg hole clearance"
+  (constraint hole_clearance (min 0.15mm))
+  (condition "A.memberOfFootprint('J4') && B.memberOfFootprint('J4')")
   (severity warning))
