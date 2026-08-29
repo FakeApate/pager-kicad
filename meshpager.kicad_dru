@@ -5,36 +5,32 @@
 # .kicad_pro file. Verify limits against the current JLCPCB capability
 # page before ordering.
 
-# --- Global minimums (standard service, no surcharge) ---
+# --- Fab capability floors ---
+#
+# These belong in Board Setup > Constraints, not here. A custom rule OVERRIDES
+# the Board Setup and netclass values rather than acting as a floor beneath
+# them, so restating fab minimums as rules silently disables the tighter limits
+# you actually want enforced. This section used to hold seven such rules; six
+# of them loosened the board to the JLCPCB floor and, in the case of clearance,
+# shadowed every netclass on the board.
+#
+# Board Setup values in use, all at or above the JLCPCB 4-layer standard
+# service minimums (shown in brackets):
+#
+#   min clearance               0.10 mm   [JLC 0.09]
+#   min track width             0.20 mm   [JLC 0.09]
+#   min via diameter            0.50 mm   [JLC 0.40]
+#   min through hole diameter   0.30 mm   [JLC 0.20]
+#   min via annular width       0.10 mm   [JLC 0.10]
+#   min copper to board edge    0.50 mm   [JLC 0.30]
+#
+# Netclass clearances (Board Setup > Net Classes) resolve on top of these:
+#   Default 0.15  USB 0.20  Power 0.25  Sensitive 0.30  Switching 0.30
 
-(rule "min track width"
-  (constraint track_width (min 0.09mm))
-  (severity error))
-
-(rule "min clearance"
-  (constraint clearance (min 0.09mm))
-  (severity error))
-
-(rule "min via"
-  (constraint via_diameter (min 0.4mm))
-  (constraint hole_size (min 0.2mm))
-  (condition "A.Type == 'Via'")
-  (severity error))
-
-(rule "min PTH drill"
-  (constraint hole_size (min 0.2mm))
-  (severity error))
-
-(rule "min annular ring"
-  (constraint annular_width (min 0.1mm))
-  (severity error))
-
+# Kept as a rule because it TIGHTENS rather than loosens: JLCPCB wants 0.5 mm
+# hole-to-hole and Board Setup is currently at 0.25 mm.
 (rule "hole to hole spacing"
   (constraint hole_to_hole (min 0.5mm))
-  (severity error))
-
-(rule "copper to board edge"
-  (constraint edge_clearance (min 0.3mm))
   (severity error))
 
 # --- Practical design floors (looser than fab minimums on purpose) ---
@@ -52,6 +48,49 @@
 (rule "high current track floor"
   (constraint track_width (min 1.0mm))
   (condition "A.NetClass == 'HighCurrent'")
+  (severity error))
+
+# --- Fine-pitch land patterns ---
+#
+# Three things the netclasses cannot express, all consequences of putting Power,
+# Switching and Sensitive nets onto 0.5 mm-pitch packages.
+#
+# 1. Clearance. These land patterns space their own pads at 0.195-0.22 mm,
+#    below the 0.25-0.30 mm the netclasses ask for. That is the manufacturer's
+#    footprint, not routing, so nothing on the board can satisfy it. Checked
+#    against a fab-realistic floor instead. Worst case in use is U4 at
+#    0.195 mm (EN pad to exposed pad).
+(rule "fine pitch intra-footprint clearance"
+  (constraint clearance (min 0.15mm))
+  (condition "(A.memberOfFootprint('U4') && B.memberOfFootprint('U4')) || (A.memberOfFootprint('U5') && B.memberOfFootprint('U5')) || (A.memberOfFootprint('U7') && B.memberOfFootprint('U7')) || (A.memberOfFootprint('J4') && B.memberOfFootprint('J4')) || (A.memberOfFootprint('J6') && B.memberOfFootprint('J6')) || (A.memberOfFootprint('J7') && B.memberOfFootprint('J7'))")
+  (severity error))
+
+# 2. Track escape. Track-to-pad clearance is a separate check from the
+#    pad-to-pad one above, and memberOfFootprint does not match tracks, so the
+#    rule above does not cover it. U4 leaves a 0.75 mm corridor between pins 1
+#    and 3 for the SW escape on pin 2; at the Switching netclass 0.3 mm that
+#    permits a 0.15 mm track, while min_track_width is 0.2 mm. The two
+#    constraints exclude each other and no legal escape exists. Same
+#    fab-realistic floor, scoped to U4's courtyard only -- widen the condition
+#    if another fine-pitch part hits the same wall.
+(rule "fine pitch track escape clearance"
+  (constraint clearance (min 0.15mm))
+  (condition "A.insideCourtyard('U4') && B.memberOfFootprint('U4')")
+  (severity error))
+
+# 3. Track width. The Power netclass routes at 0.6 mm and the floor above
+#    demands 0.4 mm, but U4's pads are 0.25 mm wide, U5's are 0.28 mm, and the
+#    J6/J7 FPC pins and U7's VCC pad are all 0.30 mm, so a compliant Power
+#    track cannot physically land on any of them. Allow necking inside the
+#    courtyard of the fine-pitch parts. Must stay after "power track floor"
+#    -- later rules take priority in KiCad.
+#
+#    Note this exempts the courtyard only. A track that necks before it reaches
+#    the courtyard is still checked at 0.4 mm, which is deliberate: the neck
+#    should start at the part, not several millimetres out.
+(rule "power track necking at fine pitch pads"
+  (constraint track_width (min 0.15mm))
+  (condition "A.NetClass == 'Power' && (A.insideCourtyard('U4') || A.insideCourtyard('U5') || A.insideCourtyard('U8') || A.insideCourtyard('U3') || A.insideCourtyard('J4') || A.insideCourtyard('J6') || A.insideCourtyard('J7') || A.insideCourtyard('U7'))")
   (severity error))
 
 # --- RF ---

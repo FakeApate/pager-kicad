@@ -1496,6 +1496,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5213747"
+			(at 86.36 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc064844-9dc8-432c-844a-d9d248917ea7")
 		)
@@ -1772,6 +1783,17 @@
 		)
 		(property "LCSC Part" "C5213747"
 			(at 68.58 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5213747"
+			(at 68.58 123.444 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2609,7 +2631,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_S"
+		(property "Value" "+3V3"
 			(at 95.25 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
